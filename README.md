@@ -1,17 +1,17 @@
 # conjunction
-Conjunction data for collision avoidance design. The data is organized as follows
+Conjunction data for collision avoidance design. The data is contained in data.dat file (printed Matlab table) and organized as follows
 
 ID: event ID, it coincides with the line number 
 
 R [km]: radius of the collision disk (sum of objects radii)
 
-p_j2k_x [km],p_j2k_y [km],p_j2k_z [km],p_j2k_vx [km/s],p_j2k_vy [km/s],p_j2k_vz [km/s]: primary (p) state vector at closest approach, cartesian ECIJ200
+p_j2k_x [km], p_j2k_y [km], p_j2k_z [km], p_j2k_vx [km/s], p_j2k_vy [km/s], p_j2k_vz [km/s]: primary (p) state vector at closest approach, cartesian ECIJ200
 
-p_c_rr  [km^2],p_c_tt  [km^2],p_c_nn  [km^2],p_c_rt  [km^2],p_c_rn  [km^2],p_c_tn  [km^2]: primary (p) positional covariance (c) elements, radial (r), transverse (t) and normal (n) at closest aproach, primary RTN reference frame
+p_c_rr  [km^2], p_c_tt  [km^2], p_c_nn  [km^2], p_c_rt  [km^2], p_c_rn  [km^2], p_c_tn  [km^2]: primary (p) positional covariance (c) elements, radial (r), transverse (t) and normal (n) at closest aproach, primary RTN reference frame
 
-s_j2k_x [km],s_j2k_y [km],s_j2k_z [km],s_j2k_vx [km/s],s_j2k_vy [km/s],s_j2k_vz [km/s]: secondary (s) state vector at closest approach, cartesian ECIJ200
+s_j2k_x [km], s_j2k_y [km], s_j2k_z [km], s_j2k_vx [km/s], s_j2k_vy [km/s], s_j2k_vz [km/s]: secondary (s) state vector at closest approach, cartesian ECIJ200
 
-s_c_rr  [km^2],s_c_tt  [km^2],s_c_nn  [km^2],s_c_rt  [km^2],s_c_rn  [km^2],s_c_tn  [km^2], secondary (s) positional covariance (c) elements, radial (r), transverse (t) and normal (n) at closest aproach, secondary RTN reference frame
+s_c_rr  [km^2], s_c_tt  [km^2], s_c_nn  [km^2], s_c_rt  [km^2], s_c_rn  [km^2], s_c_tn  [km^2], secondary (s) positional covariance (c) elements, radial (r), transverse (t) and normal (n) at closest aproach, secondary RTN reference frame
 
 Pc: collision probability using Alfano's method Eq 5a (S. Alfano, Review of Conjunction Probability Methods for Short-term Encounters, AAS Paper 07-148, 2007)
 
